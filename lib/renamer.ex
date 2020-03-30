@@ -1,5 +1,18 @@
-defmodule Renamer.CLI do
-  def main(_args) do
-    IO.puts("Me go boom boom in my panties!")
+defmodule Renamer do
+  @moduledoc """
+  Documentation for Renamer.
+  """
+
+  @doc """
+  Hello world.
+
+  ## Examples
+
+      iex> Renamer.hello()
+      :world
+
+  """
+  def hello do
+    :world
   end
 end
