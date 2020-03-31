@@ -60,4 +60,39 @@ defmodule Renamer.Songs do
     IO.inspect("#{source} => #{destination}")
     source |> File.rename!(destination)
   end
+
+  def list_missing_songs(csv_stream) do
+    IO.puts("Start -- print missing songs")
+    song_count = Enum.count(csv_stream)
+    IO.inspect("#{song_count} songs being checked")
+    csv_stream |> Enum.map(&print_missing_song(&1))
+    IO.puts("End -- print missing songs")
+  end
+
+  defp print_missing_song(
+         {:ok,
+          %{
+            "disc" => disc,
+            "track" => track,
+            "artist" => artist,
+            "title" => title,
+            "info" => info
+          }}
+       ) do
+    folder = String.trim_trailing(artist, ".")
+
+    bin_path =
+      "/Volumes/media/Karaoke/Karaoke_bin/#{disc}/#{track} - #{artist} - #{title} - #{info}.bin"
+
+    unless File.exists?(bin_path), do: IO.inspect("Missing: #{bin_path}")
+
+    m4v_path = "/Volumes/media/Karaoke/Karaoke_m4v/#{folder}/#{artist} - #{title} - #{info}.m4v"
+    unless File.exists?(m4v_path), do: IO.inspect("Missing: #{m4v_path}")
+
+    mp3_path = "/Volumes/media/Karaoke/Karaoke_mp3/#{folder}/#{artist} - #{title} - #{info}.mp3"
+    unless File.exists?(mp3_path), do: IO.inspect("Missing: #{mp3_path}")
+
+    cdg_path = "/Volumes/media/Karaoke/Karaoke_mp3/#{folder}/#{artist} - #{title} - #{info}.cdg"
+    unless File.exists?(cdg_path), do: IO.inspect("Missing: #{cdg_path}")
+  end
 end
