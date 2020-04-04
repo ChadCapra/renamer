@@ -401,7 +401,7 @@ disc	track	artist	title	info
 144	23	Andy Williams	Moon River	SP14423
 248	7	Andy Williams	More	HS24807
 26	4	Andy Williams	Red Roses for a Blue Lady	DK02604
-100	15	Andy Williams	Somewhere, My Love - Lara's Theme	DK10015
+100	15	Andy Williams	Somewhere, My Love / Lara's Theme	DK10015
 67	2	Andy Williams	Speak Softly, Love ('The Godfather' Theme)	DK06702
 250	7	Andy Williams	The Days of Wine and Roses	HS25007
 4	3	Angels	My Boyfriend's Back	DK00403
@@ -1738,54 +1738,54 @@ disc	track	artist	title	info
 76	6	Chiffons	One Fine Day	DK07606
 243	4	Chiffons	Sweet Talkin' Guy	HS24304
 416	3	Chiffons	Sweet Talkin' Guy	SC41603
-473	7	Children - Disney	A Whole New World	DS47307
-473	8	Children - Disney	A Whole New World (Pop Version duet)	DS47308
-473	1	Children - Disney	Arabian Nights	DS47301
-396	6	Children - Disney	Be Prepared	DS39606
-472	7	Children - Disney	Bear Band Serenade	DS47207
-395	8	Children - Disney	Bella Notte	DS39508
-396	1	Children - Disney	Can You Feel the Love Tonight	DS39601
-471	7	Children - Disney	Chim-Chim-Cher-ee	DS47107
-396	3	Children - Disney	Circle of Life	DS39603
-472	8	Children - Disney	Ev'rybody Has a Laughing Place	DS47208
-471	6	Children - Disney	Feed the Birds	DS47106
-395	5	Children - Disney	Friend Like Me	DS39505
-473	4	Children - Disney	Friend Like Me	DS47304
-395	4	Children - Disney	Go the Distance	DS39504
-472	4	Children - Disney	Grim, Grinning Ghosts	DS47204
-396	5	Children - Disney	Hakuna Matata	DS39605
-470	8	Children - Disney	Hakuna Matata	DS47008
-396	7	Children - Disney	He Lives in You	DS39607
-472	5	Children - Disney	Heffalumps and Woozels	DS47205
-396	2	Children - Disney	I Just Can't Wait to Be King	DS39602
-470	5	Children - Disney	I Just Can't Wait to Be King	DS47005
-471	5	Children - Disney	I Love to Laugh	DS47105
-395	6	Children - Disney	I Wan'na Be Like You (The Monkey Song)	DS39506
-470	6	Children - Disney	I Won't Say (I'm in Love)	DS47006
-470	4	Children - Disney	If I Didn't Have You	DS47004
-472	1	Children - Disney	It's a Small World After All	DS47201
-471	2	Children - Disney	Jolly Holiday	DS47102
-471	8	Children - Disney	Let's Go Fly a Kite	DS47108
-395	1	Children - Disney	Mickey Mouse Club March	DS39501
-395	3	Children - Disney	Never Smile at a Crocodile	DS39503
-473	2	Children - Disney	One Jump Ahead	DS47302
-473	3	Children - Disney	One Jump Ahead (reprise)	DS47303
-473	5	Children - Disney	Prince Ali	DS47305
-473	6	Children - Disney	Proud of Your Boy	DS47306
-396	8	Children - Disney	Queen of the Jungle	DS39608
-472	6	Children - Disney	Remember When	DS47206
-470	1	Children - Disney	So This Is Love	DS47001
-471	1	Children - Disney	Spoonful of Sugar	DS47101
-471	4	Children - Disney	Stay Awake	DS47104
-471	3	Children - Disney	Supercalifragilisticexpialidocious	DS47103
-470	7	Children - Disney	The Bare Necessities	DS47007
-472	2	Children - Disney	There's a Great Big Beautiful Tomorrow	DS47202
-395	7	Children - Disney	Under the Sea	DS39507
-396	4	Children - Disney	Warthog Rhapsody	DS39604
-470	2	Children - Disney	Winnie the Pooh	DS47002
-472	3	Children - Disney	Yo Ho (A Pirate's Life for Me)	DS47203
-470	3	Children - Disney	You've Got a Friend in Me	DS47003
-395	2	Children - Disney	Zip-A-Dee-Doo-Dah	DS39502
+473	7	Children / Disney	A Whole New World	DS47307
+473	8	Children / Disney	A Whole New World (Pop Version duet)	DS47308
+473	1	Children / Disney	Arabian Nights	DS47301
+396	6	Children / Disney	Be Prepared	DS39606
+472	7	Children / Disney	Bear Band Serenade	DS47207
+395	8	Children / Disney	Bella Notte	DS39508
+396	1	Children / Disney	Can You Feel the Love Tonight	DS39601
+471	7	Children / Disney	Chim-Chim-Cher-ee	DS47107
+396	3	Children / Disney	Circle of Life	DS39603
+472	8	Children / Disney	Ev'rybody Has a Laughing Place	DS47208
+471	6	Children / Disney	Feed the Birds	DS47106
+395	5	Children / Disney	Friend Like Me	DS39505
+473	4	Children / Disney	Friend Like Me	DS47304
+395	4	Children / Disney	Go the Distance	DS39504
+472	4	Children / Disney	Grim, Grinning Ghosts	DS47204
+396	5	Children / Disney	Hakuna Matata	DS39605
+470	8	Children / Disney	Hakuna Matata	DS47008
+396	7	Children / Disney	He Lives in You	DS39607
+472	5	Children / Disney	Heffalumps and Woozels	DS47205
+396	2	Children / Disney	I Just Can't Wait to Be King	DS39602
+470	5	Children / Disney	I Just Can't Wait to Be King	DS47005
+471	5	Children / Disney	I Love to Laugh	DS47105
+395	6	Children / Disney	I Wan'na Be Like You (The Monkey Song)	DS39506
+470	6	Children / Disney	I Won't Say (I'm in Love)	DS47006
+470	4	Children / Disney	If I Didn't Have You	DS47004
+472	1	Children / Disney	It's a Small World After All	DS47201
+471	2	Children / Disney	Jolly Holiday	DS47102
+471	8	Children / Disney	Let's Go Fly a Kite	DS47108
+395	1	Children / Disney	Mickey Mouse Club March	DS39501
+395	3	Children / Disney	Never Smile at a Crocodile	DS39503
+473	2	Children / Disney	One Jump Ahead	DS47302
+473	3	Children / Disney	One Jump Ahead (reprise)	DS47303
+473	5	Children / Disney	Prince Ali	DS47305
+473	6	Children / Disney	Proud of Your Boy	DS47306
+396	8	Children / Disney	Queen of the Jungle	DS39608
+472	6	Children / Disney	Remember When	DS47206
+470	1	Children / Disney	So This Is Love	DS47001
+471	1	Children / Disney	Spoonful of Sugar	DS47101
+471	4	Children / Disney	Stay Awake	DS47104
+471	3	Children / Disney	Supercalifragilisticexpialidocious	DS47103
+470	7	Children / Disney	The Bare Necessities	DS47007
+472	2	Children / Disney	There's a Great Big Beautiful Tomorrow	DS47202
+395	7	Children / Disney	Under the Sea	DS39507
+396	4	Children / Disney	Warthog Rhapsody	DS39604
+470	2	Children / Disney	Winnie the Pooh	DS47002
+472	3	Children / Disney	Yo Ho (A Pirate's Life for Me)	DS47203
+470	3	Children / Disney	You've Got a Friend in Me	DS47003
+395	2	Children / Disney	Zip-A-Dee-Doo-Dah	DS39502
 176	1	Childrens	America, the Beautiful	TT17601
 176	2	Childrens	Anchors Aweigh	TT17602
 176	5	Childrens	B-I-N-G-O	TT17605
@@ -2477,7 +2477,7 @@ disc	track	artist	title	info
 213	13	Def Leppard	Two Steps Behind	SC21313
 148	2	Default	Wasting My Time	SP14802
 165	17	Default	Wasting My Time	TT16517
-549	2	DeFranco Family & Tony DeFranco	Heartbeat - It's a Lovebeat	CB54902
+549	2	DeFranco Family & Tony DeFranco	Heartbeat / It's a Lovebeat	CB54902
 94	1	Del Amitri	Roll to Me	DK09401
 119	6	Del Reeves	Girl on the Billboard	DK11906
 24	11	Del Shannon	Runaway	DK02411
@@ -4229,8 +4229,8 @@ disc	track	artist	title	info
 446	17	INXS	Pretty Vegas	CB44617
 8	9	Irene Cara	Fame	DK00809
 137	13	Irene Cara	Fame	SP13713
-1	12	Irene Cara	Flashdance - What a Feeling	DK00112
-135	6	Irene Cara	Flashdance - What a Feeling	SP13506
+1	12	Irene Cara	Flashdance / What a Feeling	DK00112
+135	6	Irene Cara	Flashdance / What a Feeling	SP13506
 63	2	Isley Brothers	It's Your Thing	DK06302
 465	17	Isley Brothers	It's Your Thing	CB46517
 20	6	Isley Brothers	Shout	DK02006
@@ -4676,7 +4676,7 @@ disc	track	artist	title	info
 278	14	Joel Grey	Money Makes the World Go Round	MM27814
 513	4	Joey + Rory	Cheater, Cheater	CB51304
 561	9	Joey + Rory	That's Important to Me	CB56109
-29	6	Joey Dee & The Starliters	Peppermint Twist - Part I	DK02906
+29	6	Joey Dee & The Starliters	Peppermint Twist (Part I)	DK02906
 542	13	Joey Powers	Midnight Mary	CB54213
 279	15	John Anderson	Country Till I Die	MM27915
 341	7	John Anderson	I Wish I Could've Been There	NT34107
@@ -4861,7 +4861,7 @@ disc	track	artist	title	info
 139	20	Johnny Rivers	Secret Agent Man	SP13920
 546	6	Johnny Thunder	Loop De Loop	CB54606
 76	10	Johnny Tillotson	Poetry in Motion	DK07610
-549	6	Johnny Wakelin & The Kinshasa Band	Black Superman - Muhammad Ali	CB54906
+549	6	Johnny Wakelin & The Kinshasa Band	Black Superman / Muhammad Ali	CB54906
 411	10	Johnny Winter	Mojo Boogie	SC41110
 495	12	Jojo	Anything	CB49512
 497	14	Jojo	How to Touch a Girl	CB49714
@@ -6354,7 +6354,7 @@ disc	track	artist	title	info
 233	8	Mojo Nixon	Don Henley Must Die	SC23308
 253	18	Molly Hatchet	Dreams	HS25318
 406	1	Molly Hatchet	Flirtin with Disaster	SC40601
-592	12	Molly Smitten - Downes	Children of the Universe	ZK59212
+592	12	Molly Smitten / Downes	Children of the Universe	ZK59212
 62	10	Moments	Love on a Two-Way Street	DK06210
 115	2	Monica	Angel of Mine	DK11502
 259	14	Monica	Angel of Mine	HS25914
@@ -7143,7 +7143,7 @@ disc	track	artist	title	info
 63	10	Prince & The Revolution	Let's Go Crazy	DK06310
 101	5	Proclaimers	I'm Gonna Be (500 Miles)	DK10105
 574	14	Psy	Gangnam Style	AS57414
-587	10	PSY	Gangnam Style	ZK58710
+587	10	Psy	Gangnam Style	ZK58710
 148	3	Puddle of Mudd	Blurry	SP14803
 164	6	Puddle of Mudd	Blurry	TT16406
 364	4	Puddle of Mudd	Blurry	TT36404
@@ -8250,7 +8250,7 @@ disc	track	artist	title	info
 283	5	Standards & Show Tunes	Hey, Big Spender (Sweet Charity)	MM28305
 71	4	Standards & Show Tunes	Home on the Range	DK07104
 68	14	Standards & Show Tunes	Honeysuckle Rose	DK06814
-162	11	Standards & Show Tunes	Hot Patootie - Bless My Soul (Rocky Horror Picture Show)	SF16211
+162	11	Standards & Show Tunes	Hot Patootie / Bless My Soul (Rocky Horror Picture Show)	SF16211
 255	7	Standards & Show Tunes	How Insensitive	HS25507
 162	12	Standards & Show Tunes	I Can Make You a Man (Rocky Horror Picture Show)	SF16212
 120	16	Standards & Show Tunes	I Can't Get Started	DK12016

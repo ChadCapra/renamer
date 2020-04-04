@@ -22,8 +22,11 @@ defmodule Renamer.Songs do
       }
 
   def rename_songs(songs, source_folder, dest_folder, ext) do
+    IO.inspect("#{source_folder} => #{dest_folder} for ext: #{ext}")
+
     Renamer.Files.ls_r(source_folder)
     |> Enum.filter(&String.ends_with?(&1, ".#{ext}"))
+    |> Enum.reject(&String.starts_with?(Path.basename(&1), "."))
     |> rename_song_files(songs, dest_folder)
 
     songs
@@ -71,8 +74,15 @@ defmodule Renamer.Songs do
        do: "/#{artist}/#{artist} - #{title} - #{info}#{ext}"
 
   defp move_file_to(destination, source) do
-    create_directory(destination)
-    source |> File.rename!(destination)
+    case destination do
+      ^source ->
+        nil
+
+      _ ->
+        IO.inspect("#{destination}")
+        create_directory(destination)
+        source |> File.rename!(destination)
+    end
   end
 
   defp create_directory(destination_path) do
