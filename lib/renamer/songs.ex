@@ -45,11 +45,31 @@ defmodule Renamer.Songs do
 
   defp destination_path(source_path, songs, dest_folder) do
     ext = source_path |> Path.extname() |> String.downcase()
-    song_key = source_path |> Path.basename(ext) |> String.slice(-7..-1)
+    song_key = get_song_key(source_path, ext)
     relative_path = ext |> relative_file_path(songs[song_key])
-
     dest_folder <> relative_path
   end
+
+  # Following function used when files include song "info" at end of file (e.g. "DK02308")
+  defp get_song_key(source_path, ext),
+    do: source_path |> Path.basename(ext) |> String.slice(-7..-1)
+
+  # Following functions for newly ripped songs (with format "626_13.ext")
+  #  def get_song_key(source_path, ext) do
+  #    source_path
+  #    |> Path.basename(ext)
+  #    |> String.slice(-6..-1)
+  #    |> String.split("_")
+  #    |> add_brand()
+  #  end
+  #
+  #  defp add_brand([disc, track]) do
+  #    case String.to_integer(disc) do
+  #      x when x in 623..626 -> "PT" <> disc <> track
+  #      y when y in 627..628 -> "KK" <> disc <> track
+  #      _ -> "ZK" <> disc <> track
+  #    end
+  #  end
 
   defp relative_file_path(
          ".bin",
@@ -70,8 +90,10 @@ defmodule Renamer.Songs do
            "title" => title,
            "info" => info
          }
-       ),
-       do: "/#{artist}/#{artist} - #{title} - #{info}#{ext}"
+       ) do
+    folder = String.replace(artist, "\.", "")
+    "/#{folder}/#{artist} - #{title} - #{info}#{ext}"
+  end
 
   defp move_file_to(destination, source) do
     case destination do
@@ -79,6 +101,7 @@ defmodule Renamer.Songs do
         nil
 
       _ ->
+        IO.inspect("#{source}")
         IO.inspect("#{destination}")
         create_directory(destination)
         source |> File.rename!(destination)
